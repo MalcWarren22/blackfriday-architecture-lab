@@ -79,4 +79,4 @@ Once Application Insights is live, you can:
 
 ## 👨‍💻 Author
 **Malcolm Warren**  
-Future Cloud Architect | Azure & DevOps | Sustainability + Scalability Advocate  
+Future Cloud Architect | Azure & DevOps | Sustainability + Scalability Advocate
