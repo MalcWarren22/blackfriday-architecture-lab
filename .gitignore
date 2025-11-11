@@ -1,0 +1,8 @@
+﻿*.pyc
+__pycache__/
+.env
+*.log
+.vscode/
+node_modules/
+*.zip
+*.tar.gz
