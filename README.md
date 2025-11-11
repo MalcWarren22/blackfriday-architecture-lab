@@ -1,7 +1,7 @@
 ## Overview
 This project demonstrates how to design, automate, and observe a scalable cloud landing zone using **Azure + GitHub Actions + Bicep**.
 
-It began as part of the **Black Friday Architecture Challenge**, simulating a production-grade e-commerce environment expecting:
+It began as part of the **Black Friday Solution Architecture**, simulating a production-grade e-commerce environment expecting:
 - 500,000+ users in 24 hours  
 - 10× spike in checkout requests  
 - Real-time inventory updates  
