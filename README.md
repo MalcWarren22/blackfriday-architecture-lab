@@ -117,4 +117,5 @@ Once Application Insights is live, you can:
 ## Author
 **Malcolm Warren**  
 Future Cloud Architect | Azure & DevOps | Cloud Advocate
+
 Norfolk State University | ☁️ AZ-900/305 (In Progress)
