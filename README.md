@@ -76,17 +76,16 @@ Once Application Insights is live, you can:
 - [ ] Add cost management and tagging policies  
 
 ---
-
 ## High-Level Architecture (Target)
 
 ```mermaid
 flowchart LR
-    U[Users] --> FD[Azure Front Door & WAF]
-    FD --> WA[Web/API Tier (App Service or AKS)]
-    WA --> RC[Azure Cache for Redis]
-    WA --> DB[(Azure SQL or Cosmos DB)]
+    U[Users] --> FD[Front Door & WAF]
+    FD --> WA[Web/API Tier]
+    WA --> RC[Redis Cache]
+    WA --> DB[(SQL/Cosmos DB)]
     WA --> SB[Service Bus / Queue]
-    WA --> AI[Application Insights]
+    WA --> AI[App Insights]
     AI --> LA[Log Analytics]
 
 ---
