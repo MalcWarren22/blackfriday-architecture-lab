@@ -1,0 +1,16 @@
+﻿{
+  "name": "bf-architecture-lab-api",
+  "version": "1.0.0",
+  "description": "Sample Black Friday API for the Azure architecture lab.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node -c index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "cors": "^2.8.5"
+  }
+}
