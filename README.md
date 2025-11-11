@@ -87,6 +87,7 @@ flowchart LR
     WA --> SB[Service Bus / Queue]
     WA --> AI[App Insights]
     AI --> LA[Log Analytics]
+```
 ---
 
 ## 👨‍💻 Author
