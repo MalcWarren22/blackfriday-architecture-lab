@@ -77,6 +77,20 @@ Once Application Insights is live, you can:
 
 ---
 
+## High-Level Architecture (Target)
+
+```mermaid
+flowchart LR
+    U[Users] --> FD[Azure Front Door + WAF]
+    FD --> WA[Web/API Tier (App Service / AKS)]
+    WA --> RC[Azure Cache for Redis]
+    WA --> DB[(Azure SQL / Cosmos DB)]
+    WA --> SB[Service Bus / Queue]
+    WA --> AI[Application Insights]
+    AI --> LA[Log Analytics]
+
+---
+
 ## 👨‍💻 Author
 **Malcolm Warren**  
 Future Cloud Architect | Azure & DevOps | Sustainability + Scalability Advocate
