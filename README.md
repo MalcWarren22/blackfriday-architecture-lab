@@ -81,10 +81,10 @@ Once Application Insights is live, you can:
 
 ```mermaid
 flowchart LR
-    U[Users] --> FD[Azure Front Door + WAF]
-    FD --> WA[Web/API Tier (App Service / AKS)]
+    U[Users] --> FD[Azure Front Door & WAF]
+    FD --> WA[Web/API Tier (App Service or AKS)]
     WA --> RC[Azure Cache for Redis]
-    WA --> DB[(Azure SQL / Cosmos DB)]
+    WA --> DB[(Azure SQL or Cosmos DB)]
     WA --> SB[Service Bus / Queue]
     WA --> AI[Application Insights]
     AI --> LA[Log Analytics]
